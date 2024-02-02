@@ -1,5 +1,8 @@
 package nl.mfarr.backendcontrolleruitwerkingen.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Television {
 
     private Long id;
@@ -13,11 +16,13 @@ public class Television {
     private String screenQuality;
     private boolean smartTv;
     private String sourceImg;
-    public class Option {
+
+    public List<Options> options = new ArrayList<Options>();
+    public static class Options {
         private String name;
         private boolean applicable;
 
-        public Option(String name, boolean applicable) {
+        public Options(String name, boolean applicable) {
             this.name = name;
             this.applicable = applicable;
         }
