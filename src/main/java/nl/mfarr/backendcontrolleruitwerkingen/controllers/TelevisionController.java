@@ -1,4 +1,4 @@
-package nl.mfarr.backendcontrolleruitwerkingen.controller;
+package nl.mfarr.backendcontrolleruitwerkingen.controllers;
 import nl.mfarr.backendcontrolleruitwerkingen.model.Television;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
