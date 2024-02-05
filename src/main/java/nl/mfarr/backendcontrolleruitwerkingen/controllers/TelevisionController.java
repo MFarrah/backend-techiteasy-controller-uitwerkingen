@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-@RestController
 @RequestMapping("/televisions")
 public class TelevisionController {
     private Long currentId = 1L;
