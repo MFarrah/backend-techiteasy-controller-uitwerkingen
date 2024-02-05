@@ -1,7 +1,11 @@
 package nl.mfarr.backendcontrolleruitwerkingen.exceptions;
 
-public class RecordNotFoundException {
+import nl.mfarr.backendcontrolleruitwerkingen.controllers.ExceptionController;
+
+public class RecordNotFoundException extends ExceptionController {
     public String getMessage() {
         return "Record not found";
     }
+
 }
+
